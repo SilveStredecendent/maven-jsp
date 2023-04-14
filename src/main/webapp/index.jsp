@@ -2,7 +2,7 @@
 <%@ taglib uri="jakarta.tags.core" prefix="c" %>
     
 <!DOCTYPE html>
-    <html lang-"pt-br">
+    <html lang="pt-br">
 
     <head>
         <meta charset="UTF-8" />
@@ -13,7 +13,9 @@
         <h1>Olá Maven!!!</h1>
         
         <c:forEach var="num" begin="0" end="10"></c:forEach>
-         
+        ${num} <br/>
+        </c:forEach>
+
     </body>
 
     </html>
