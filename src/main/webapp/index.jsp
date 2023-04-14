@@ -12,8 +12,8 @@
     <body>
         <h1>Olá Maven!!!</h1>
         
-        <c:forEach var="num" begin="0" end="10"></c:forEach>
-        ${num} <br/>
+        <c:forEach var="num" begin="0" end="10">        
+            ${num} <br/>
         </c:forEach>
 
     </body>
