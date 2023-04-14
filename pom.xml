@@ -10,14 +10,14 @@
     <dependencies>
         
         <dependency>
-            <groupId>jakarta.servlet.jsp.jstk</groupId>
-            <artifactID>jakarta.servlet.jsp.jstl-api</artifactID>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
             <version>3.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.glassfish.web</groupId>
-            <artifactID>jakarta.servlet.jsp.jstl</artifactID>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
             <version>3.0.1</version>
         </dependency>
 
