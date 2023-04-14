@@ -1,0 +1,33 @@
+<project>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.marcoweb</groupId>
+    <artifactId>mavenjsp</artifactId>
+    <version>
+    </version>
+    <packaging>war</packaging> [11:51] HERBERT DE SOUSA SANTOS <dependencies>
+        
+        <dependency>
+            <groupId>jakarta.servlet.jsp.jstk</groupId>
+            <artifactID>jakarta.servlet.jsp.jstl-api</artifactID>
+            <version>3.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactID>jakarta.servlet.jsp.jstl</artifactID>
+            <version>3.0.1</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
